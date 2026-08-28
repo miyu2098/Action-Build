@@ -97,7 +97,7 @@ on:
         type: string
         description: "自定义构建时间(输入F使用UTCT或-1关闭)//Custom build time (Enter F to use UTCT, or -1 to disable)"
         required: false
-        default: "Wed Apr 1 07:18:25 UTC 2026"
+        default: "Tue Jun 30 12:15:46 UTC 2026"
       KSU_META:
         type: string
         description: "管理器分支名(必填)/内置分支名(必填)/自定义版本标识(留空不修改)/回退分支提交哈希版本(留空不修改)//Manager Branch name (Required) / Builtin branch name (Required) / Custom version identifier (Leave blank to not modify) / Rollback branch commit hash version (Leave blank to not modify)"
@@ -117,7 +117,7 @@ on:
         type: string
         description: "自定义内核后缀(不输入使用RAND_STR或-1关闭)//Custom kernel suffix (Leave blank to use RAND_STR, or -1 to disable)"
         required: false
-        default: "8-o-01178-ge9806715b271"
+        default: "8-o-01179-g67e2990316c6"
       RESUBLEVEL:
         description: "自定义内核等级欺骗(SUBLEVEL)//Custom kernel SUBLEVEL spoofing"
         required: false
